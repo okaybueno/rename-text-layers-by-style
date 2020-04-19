@@ -4,7 +4,7 @@
   "name": "Rename text layers by style",
   "description": "Rename all text layers based on the name of the text style assigned.",
   "author": "Alexander Gerund",
-  "version": "1.0.0",
+  "version": "2.1.2",
   "identifier": "sketch.plugin.rename-text-layers-by-style",
   "commands": [
     {

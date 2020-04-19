@@ -7,10 +7,12 @@ export default function() {
     textLayers.forEach(layer => {
       if (layer.sharedStyleId) {
         layer.name = layer.sharedStyle.name;
+      } else {
+        sketch.UI.message("Seems like you don't have any text layers with assigned text styles.");
       }
       });
 } else {
-    sketch.UI.message("Seems like you don't have any text layers with assigned text styles.");
+    sketch.UI.message("Seems like you don't have any text layers in your document.");
   }
   return
 }
