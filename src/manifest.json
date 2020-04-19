@@ -23,8 +23,8 @@
   "menu": {
     "title": "🦅 Rename text layers by style",
     "items": [
-      "okay-bueno.rename-selected-text-layers",
-      "okay-bueno.rename-all-text-layers"
+      "sketch.plugin.rename-selected-text-layers-by-style",
+      "sketch.plugin.rename-all-text-layers-by-style"
     ]
   }
 }
