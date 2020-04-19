@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "name": "Rename text layers by style",
+  "description": "Rename all text layers based on the name of the text style assigned.",
+  "author": "Alexander Gerund",
+  "version": "1.0",
+  "commands": [
+    {
+      "name": "Rename selected text layers",
+      "shortcut" : "command shift alt r",
+      "identifier": "okay-bueno.rename-selected-text-layers",
+      "script": "./rename-selected.js"
+    },
+    {
+      "name": "Rename all text layers",
+      "shortcut" : "command shift alt a",
+      "identifier": "okay-bueno.rename-all-text-layers",
+      "script": "./rename-all.js"
+    }
+  ],
+  "menu": {
+    "title": "🦅 Rename text layers by style",
+    "items": [
+      "okay-bueno.rename-selected-text-layers",
+      "okay-bueno.rename-all-text-layers"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "rename-text-layers-by-style",
+  "description": "Rename all text layers based on the name of the text style assigned.",
+  "version": "1.0.0",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "rename-text-layers-by-style",
+    "manifest": "src/manifest.json",
+    "main": "rename-text-layers-by-style.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ],
+    "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.0"
+  },
+  "author": "Alexander Gerund <alex@okaybueno.com>"
+}
