@@ -4,18 +4,19 @@
   "name": "Rename text layers by style",
   "description": "Rename all text layers based on the name of the text style assigned.",
   "author": "Alexander Gerund",
-  "version": "1.0",
+  "version": "1.0.0",
+  "identifier": "sketch.plugin.rename-text-layers-by-style",
   "commands": [
     {
       "name": "Rename selected text layers",
       "shortcut" : "command shift alt r",
-      "identifier": "okay-bueno.rename-selected-text-layers",
+      "identifier": "sketch.plugin.rename-selected-text-layers-by-style",
       "script": "./rename-selected.js"
     },
     {
       "name": "Rename all text layers",
       "shortcut" : "command shift alt a",
-      "identifier": "okay-bueno.rename-all-text-layers",
+      "identifier": "sketch.plugin.rename-all-text-layers-by-style",
       "script": "./rename-all.js"
     }
   ],
