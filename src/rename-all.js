@@ -12,7 +12,7 @@ export default function() {
       }
       });
 } else {
-    sketch.UI.message("Seems like you don't have any text layers in your document.");
+    sketch.UI.message("Sorry, seems like you don't have any text layers in your document.");
   }
   return
 }
